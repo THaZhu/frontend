@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	background:hsla(0,0%,98%,1);
+}
+
+.install{   	/*---------  安裝windows版 ----------*/
+	width:100%;
+	height:50px;
+	background: linear-gradient(to right,#C06,#F09); 
+	/*background-color:#F63;*/
+	cursor:pointer;	/*--滑鼠移至該區會出現可按的手指--*/
+}
+
+.login_div{			/*---------  登入介面 ----------*/
+	border-style:solid;
+	border-color:hsla(0,0%,70%,0.6);
+	border-width:1px;
+	margin-top:5.2%;
+	margin-left:52%;
+	width:345px;
+	height:358px;
+	background:#FFF;
+}
+
+img{
+	width:220px;
+	height:auto:
+}
+
+.register{		/*---------- 註冊 ------------*/
+	border-style:solid;
+	border-color:hsla(0,0%,70%,0.6);
+	border-width:1px;
+	margin-top:0.7%;
+	margin-left:52%;
+	width:345px;
+	height:65px;
+	background:#FFF;
+}
+
+fieldset{
+	border-bottom:0;
+	border-left:0;
+	border-right:0;
+	width:230px;
+}
+
+legend{
+	font-size:18px;
+	color:hsla(0,0%,35%,0.8);
+}
+
+.bottom{
+	margin-top:19%;
+	margin-bottom:0%;
+	width:100%;
+	height:85px;
+	background:hsla(0,0%,50%,0.5);
+}
+
+center{
+	line-height:65px;
+	font-size:15px;
+	font-family:"微軟正黑體";
+}
+
+a{
+	cursor:pointer;	/*--滑鼠移至該區會出現可按的手指--*/
+	color:hsla(225,100%,45%,0.8);
+}
+
+#account, #password{/*----------帳號密碼-----------*/
+	border-radius:3px;
+	border-width:1.3px;
+	margin-bottom:10px;
+	height:28px;
+	width:250px;
+	/*background-color:hsla(60,100%,80%,0.6);*/
+	background:hsla(0,0%,90%,0.5);
+	border-color:hsla(0,0%,70%,0.8);
+}
+
+#login{                /*---------登入按鈕------------*/
+	border-radius:3px;
+	border-width:0;
+	height:28px;
+	width:250px;
+	background-color:hsla(216,100%,40%,0.7);
+	color:#FFF;
+	font-size:18px;
+	font-weight:bold;
+	cursor:pointer;	/*----滑鼠移至該區會出現可按的手指------*/
+}
+
+#login:hover { 		/* 鼠標移到範圍內改變顏色 */
+	background:hsla(216,100%,50%,0.7); 
+} 
